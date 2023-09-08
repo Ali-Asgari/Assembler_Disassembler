@@ -1,7 +1,7 @@
 # Assembler Disassembler for x64 Assembly Instructions
 
-This is a Python and NASM-based Assembler and Disassembler tool for a wide range of x64 assembly instructions. It allows you to convert assembly instructions to their binary representation (machine code) using the Assembler, and vice versa using the Disassembler. The tool's reference for these conversions is https://defuse.ca/online-x86-assembler.htm.
-
+Python and NASM implementation of an Assembler and Disassembler for a wide range of x64 assembly instructions. They allow you to convert assembly instructions to their binary representation (machine code) using the Assembler, and vice versa using the Disassembler. The conversion between assembly instructions and their binary representation (machine code) is based on the reference provided at https://defuse.ca/online-x86-assembler.htm.\
+Example : xor edx,DWORD PTR [ebp+r9d*4+0x55] &harr 674233548d55 (hex)
 ## Usage
 <!-- <hr> -->
 ### Python Assembler
@@ -23,7 +23,7 @@ Open a terminal. Run the command:
 
     python3 Disassembler.py.
 
-Enter the machine code (hex string) when prompted.
+Enter the machine code (hex number) when prompted.
 
 
 <hr>
@@ -36,8 +36,8 @@ Open a terminal. Run the following commands:
 
     nasm -f elf64 Assembler.asm && ld -o Assembler -e _start Assembler.o && ./Assembler
 
-Provide the directory path of the file that includes your assembly instructions.\
-Provide the directory path of the file where you want to save the machine codes.
+Enter the directory path of the file that includes your assembly instructions.\
+Enter the directory path of the file where you want to save the machine codes.
 
 <hr>
 
@@ -48,8 +48,8 @@ Open a terminal. Run the following commands:
 
     nasm -f elf64 Disassembler.asm && ld -o Disassembler -e _start Disassembler.o && ./Disassembler
 
-Provide the directory path of the file that includes your machine codes.\
-Provide the directory path of the file where you want to save the assembly instructions.
+Enter the directory path of the file that includes your machine codes.\
+Enter the directory path of the file where you want to save the assembly instructions.
 
 ## Supported Instructions
 
@@ -65,4 +65,4 @@ The following instructions are supported by this tool:
 | shl | shr |  neg  |  not  |   |
 | call | ret |  syscall  |  push  | pop  |
 
-Note : that this tool is intended for x64 assembly instructions.
+Note : This tools are intended for x64 assembly instructions.
