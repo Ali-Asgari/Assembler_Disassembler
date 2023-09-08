@@ -1,6 +1,6 @@
-Assembler Disassembler for x64 Assembly Instructions
+#Assembler Disassembler for x64 Assembly Instructions
 
-This is a Python and NASM-based Assembler and Disassembler tool for a wide range of x64 assembly instructions. It allows you to convert assembly instructions to their binary representation (machine code) using the Assembler, and vice versa using the Disassembler. The tool's reference for these conversions is https://defuse.ca/online-x86-assembler.htm.
+##This is a Python and NASM-based Assembler and Disassembler tool for a wide range of x64 assembly instructions. It allows you to convert assembly instructions to their binary representation (machine code) using the Assembler, and vice versa using the Disassembler. The tool's reference for these conversions is https://defuse.ca/online-x86-assembler.htm.
 Usage
 Python
 Assembler
@@ -47,37 +47,16 @@ To disassemble binary representations to assembly instructions using NASM, follo
 Supported Instructions
 
 The following instructions are supported by this tool:
+|   |   |   |   |   |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| mov | add | adc | sub | sbb |
+| and | or | xor | dec | inc |
+| cmp | test | xchg | xadd | |
+| imul | idiv |   |   |   |
+| bsf | bsr |   |   |   |
+| stc | clc |  std |  cld |   |
+| shl | shr |  neg  |  not  |   |
+| call | ret |  syscall  |  push  | pop  |
 
-    mov
-    add
-    adc
-    sub
-    sbb
-    and
-    or
-    xor
-    dec
-    inc
-    cmp
-    test
-    xchg
-    xadd
-    imul
-    idiv
-    bsf
-    bsr
-    stc
-    clc
-    std
-    cld
-    shl
-    shr
-    neg
-    not
-    call
-    ret
-    syscall
-    push
-    pop
 
-Please note that this tool is intended for x64 assembly instructions.
+Note : that this tool is intended for x64 assembly instructions.
