@@ -21,7 +21,7 @@ Enter your assembly instructions when prompted.
 To disassemble binary representations to assembly instructions using Python, follow these steps:
 Open a terminal. Run the command:
 
-    python3 Disassembler.py.
+    python3 Disassembler.py
 
 Enter the machine code (hex number) when prompted.
 
