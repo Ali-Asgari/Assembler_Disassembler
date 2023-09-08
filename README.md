@@ -34,9 +34,7 @@ To assemble assembly instructions using NASM, follow these steps:
 
 Open a terminal. Run the following commands:
 
-    nasm -f elf64 Assembler.asm
-    ld -o Assembler -e _start Assembler.o
-    ./Assembler
+    nasm -f elf64 Assembler.asm && ld -o Assembler -e _start Assembler.o && ./Assembler
 
 Provide the directory path of the file that includes your assembly instructions.
 Provide the directory path of the file where you want to save the machine codes.
@@ -48,9 +46,7 @@ Provide the directory path of the file where you want to save the machine codes.
 To disassemble binary representations to assembly instructions using NASM, follow these steps:
 Open a terminal. Run the following commands:
 
-    nasm -f elf64 Disassembler.asm
-    ld -o Disassembler -e _start Disassembler.o
-    ./Disassembler
+    nasm -f elf64 Disassembler.asm && ld -o Disassembler -e _start Disassembler.o && ./Disassembler
 
 Provide the directory path of the file that includes your machine codes.
 Provide the directory path of the file where you want to save the assembly instructions.
