@@ -3,8 +3,8 @@
 This is a Python and NASM-based Assembler and Disassembler tool for a wide range of x64 assembly instructions. It allows you to convert assembly instructions to their binary representation (machine code) using the Assembler, and vice versa using the Disassembler. The tool's reference for these conversions is https://defuse.ca/online-x86-assembler.htm.
 
 ## Usage
+<!-- <hr> -->
 ### Python Assembler
-<hr>
 
 To assemble assembly instructions using Python, follow these steps:
 
@@ -14,9 +14,9 @@ Open a terminal. Run the command:
 
 Enter your assembly instructions when prompted.
 
+<hr>
 
 ### Python Disassembler
-<hr>
 
 To disassemble binary representations to assembly instructions using Python, follow these steps:
 Open a terminal. Run the command:
@@ -26,8 +26,9 @@ Open a terminal. Run the command:
 Enter the machine code (hex string) when prompted.
 
 
-### NASM Assembler
 <hr>
+
+### NASM Assembler
 
 To assemble assembly instructions using NASM, follow these steps:
 
@@ -40,9 +41,9 @@ Open a terminal. Run the following commands:
 Provide the directory path of the file that includes your assembly instructions.
 Provide the directory path of the file where you want to save the machine codes.
 
+<hr>
 
 ### NASM Disassembler
-<hr>
 
 To disassemble binary representations to assembly instructions using NASM, follow these steps:
 Open a terminal. Run the following commands:
