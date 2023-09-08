@@ -53,7 +53,7 @@ Enter the directory path of the file where you want to save the assembly instruc
 
 ## Supported Instructions
 
-The following instructions are supported by this tool:
+The following instructions are supported by this tools:
 |   |   |   |   |   |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | mov | add | adc | sub | sbb |
