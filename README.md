@@ -35,7 +35,7 @@ Open a terminal. Run the following commands:
 Provide the directory path of the file that includes your assembly instructions.
 Provide the directory path of the file where you want to save the machine codes.
 
-## NASM Disassembler
+### NASM Disassembler
 
 To disassemble binary representations to assembly instructions using NASM, follow these steps:
 Open a terminal. Run the following commands:
