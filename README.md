@@ -8,9 +8,9 @@ Usage
 
 To assemble assembly instructions using Python, follow these steps:
 
-    Open a terminal.
-    Run the command: python3 Assembler.py.
-    Enter your assembly instructions when prompted.
+Open a terminal.Run the command: 
+    python3 Assembler.py.
+Enter your assembly instructions when prompted.
 
 ## Disassembler
 
