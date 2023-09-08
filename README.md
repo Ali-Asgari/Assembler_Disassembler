@@ -1,7 +1,7 @@
 # Assembler Disassembler for x64 Assembly Instructions
 
 Python and NASM implementation of an Assembler and Disassembler for a wide range of x64 assembly instructions. They allow you to convert assembly instructions to their binary representation (machine code) using the Assembler, and vice versa using the Disassembler. The conversion between assembly instructions and their binary representation (machine code) is based on the reference provided at https://defuse.ca/online-x86-assembler.htm.\
-Example : xor edx,DWORD PTR [ebp+r9d*4+0x55] &harr 674233548d55 (hex)
+Example : xor edx,DWORD PTR [ebp+r9d*4+0x55] &#8660; 674233548d55 (hex)
 ## Usage
 <!-- <hr> -->
 ### Python Assembler
