@@ -49,8 +49,8 @@ Provide the directory path of the file where you want to save the assembly instr
 ## Supported Instructions
 
 The following instructions are supported by this tool:
-|   |   |   |   |   |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
+<!-- |   |   |   |   |   |
+| ------------- | ------------- | ------------- | ------------- | ------------- | -->
 | mov | add | adc | sub | sbb |
 | and | or | xor | dec | inc |
 | cmp | test | xchg | xadd | |
