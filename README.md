@@ -1,9 +1,10 @@
 # Assembler Disassembler for x64 Assembly Instructions
 
-## This is a Python and NASM-based Assembler and Disassembler tool for a wide range of x64 assembly instructions. It allows you to convert assembly instructions to their binary representation (machine code) using the Assembler, and vice versa using the Disassembler. The tool's reference for these conversions is https://defuse.ca/online-x86-assembler.htm.
+This is a Python and NASM-based Assembler and Disassembler tool for a wide range of x64 assembly instructions. It allows you to convert assembly instructions to their binary representation (machine code) using the Assembler, and vice versa using the Disassembler. The tool's reference for these conversions is https://defuse.ca/online-x86-assembler.htm.
 Usage
-Python
-Assembler
+# Python:
+<br>
+# Assembler
 
 To assemble assembly instructions using Python, follow these steps:
 
@@ -11,7 +12,7 @@ To assemble assembly instructions using Python, follow these steps:
     Run the command: python3 Assembler.py.
     Enter your assembly instructions when prompted.
 
-Disassembler
+# Disassembler
 
 To disassemble binary representations to assembly instructions using Python, follow these steps:
 
