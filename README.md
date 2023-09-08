@@ -13,7 +13,7 @@ Open a terminal. Run the command:
 
 Enter your assembly instructions when prompted.
 
-<br>
+<hr>
 
 ### Python Disassembler
 
