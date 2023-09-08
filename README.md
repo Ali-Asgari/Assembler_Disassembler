@@ -13,6 +13,8 @@ Open a terminal. Run the command:
 
 Enter your assembly instructions when prompted.
 
+<br>
+
 ### Python Disassembler
 
 To disassemble binary representations to assembly instructions using Python, follow these steps:
